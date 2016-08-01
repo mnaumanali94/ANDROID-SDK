@@ -66,7 +66,7 @@ public class HeaderController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 4612377540434185095L;
+            private static final long serialVersionUID = 4632735430493934118L;
             {
                     put( "user-agent", "Stamplay SDK" );
                     put( "accept", "application/json" );
@@ -76,7 +76,7 @@ public class HeaderController extends BaseController {
 
         //load all fields for the outgoing API request
         Map<String, Object> _parameters = new HashMap<String, Object>() {
-            private static final long serialVersionUID = 4730955094821250626L;
+            private static final long serialVersionUID = 5762696096855576641L;
             {
                     put( "value", value );
             }

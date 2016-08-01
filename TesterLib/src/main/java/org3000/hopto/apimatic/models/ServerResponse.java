@@ -12,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonSetter;
 public class ServerResponse 
         extends BaseModel
         implements java.io.Serializable {
-    private static final long serialVersionUID = 5645110903390435888L;
+    private static final long serialVersionUID = 4909313754815672907L;
     private LinkedHashMap<String, Object> input;
     private String message;
     private boolean passed;

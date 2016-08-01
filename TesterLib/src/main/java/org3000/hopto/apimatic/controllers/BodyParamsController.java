@@ -60,7 +60,7 @@ public class BodyParamsController extends BaseController {
 
         //process query parameters
         APIHelper.appendUrlWithQueryParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5079204820508689235L;
+            private static final long serialVersionUID = 5729317567192081300L;
             {
                     put( "array", "true" );
             }});
@@ -69,7 +69,7 @@ public class BodyParamsController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5409035857148607756L;
+            private static final long serialVersionUID = 5367934353017905749L;
             {
                     put( "user-agent", "Stamplay SDK" );
                     put( "accept", "application/json" );
@@ -160,7 +160,7 @@ public class BodyParamsController extends BaseController {
 
         //process query parameters
         APIHelper.appendUrlWithQueryParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5050374467465572495L;
+            private static final long serialVersionUID = 5406639557803789945L;
             {
                     put( "array", "true" );
             }});
@@ -169,7 +169,7 @@ public class BodyParamsController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5696565560978163603L;
+            private static final long serialVersionUID = 5727312520716549802L;
             {
                     put( "user-agent", "Stamplay SDK" );
                     put( "accept", "application/json" );
@@ -262,7 +262,7 @@ public class BodyParamsController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5381842475401616617L;
+            private static final long serialVersionUID = 5390444407997878562L;
             {
                     put( "user-agent", "Stamplay SDK" );
                     put( "accept", "application/json" );
@@ -353,7 +353,7 @@ public class BodyParamsController extends BaseController {
 
         //process query parameters
         APIHelper.appendUrlWithQueryParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5663067872833991014L;
+            private static final long serialVersionUID = 5162063346640764848L;
             {
                     put( "array", "true" );
             }});
@@ -362,7 +362,7 @@ public class BodyParamsController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5245437896784746242L;
+            private static final long serialVersionUID = 4647106286240527926L;
             {
                     put( "user-agent", "Stamplay SDK" );
                     put( "accept", "application/json" );
@@ -455,7 +455,7 @@ public class BodyParamsController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5711375474649142576L;
+            private static final long serialVersionUID = 5247806334612296198L;
             {
                     put( "user-agent", "Stamplay SDK" );
                     put( "accept", "application/json" );
@@ -548,7 +548,7 @@ public class BodyParamsController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5517914687328443739L;
+            private static final long serialVersionUID = 4726296664916166071L;
             {
                     put( "user-agent", "Stamplay SDK" );
                     put( "accept", "application/json" );
@@ -639,7 +639,7 @@ public class BodyParamsController extends BaseController {
 
         //process query parameters
         APIHelper.appendUrlWithQueryParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 4739688878091194504L;
+            private static final long serialVersionUID = 5666716362715993752L;
             {
                     put( "array", "true" );
             }});
@@ -648,7 +648,7 @@ public class BodyParamsController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5597017119155284177L;
+            private static final long serialVersionUID = 4812104339242099338L;
             {
                     put( "user-agent", "Stamplay SDK" );
                     put( "accept", "application/json" );
@@ -739,7 +739,7 @@ public class BodyParamsController extends BaseController {
 
         //process query parameters
         APIHelper.appendUrlWithQueryParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5381676407246128325L;
+            private static final long serialVersionUID = 5607358885139759130L;
             {
                     put( "array", "true" );
             }});
@@ -748,7 +748,7 @@ public class BodyParamsController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 4910404764824430562L;
+            private static final long serialVersionUID = 4755445475638993908L;
             {
                     put( "user-agent", "Stamplay SDK" );
                     put( "accept", "application/json" );

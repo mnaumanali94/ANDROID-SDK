@@ -62,7 +62,7 @@ public class EchoController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5201612056057599297L;
+            private static final long serialVersionUID = 4925335159973888315L;
             {
                     put( "user-agent", "Stamplay SDK" );
                     put( "accept", "application/json" );
@@ -149,7 +149,7 @@ public class EchoController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5451825506256967625L;
+            private static final long serialVersionUID = 4741214703242477712L;
             {
                     put( "user-agent", "Stamplay SDK" );
                     put( "accept", "application/json" );
@@ -158,7 +158,7 @@ public class EchoController extends BaseController {
 
         //load all fields for the outgoing API request
         Map<String, Object> _parameters = new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5678275714605618062L;
+            private static final long serialVersionUID = 4905555125526436236L;
             {
                     put( "input", input );
             }
@@ -243,7 +243,7 @@ public class EchoController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5582088365786940270L;
+            private static final long serialVersionUID = 5342981876789703089L;
             {
                     put( "user-agent", "Stamplay SDK" );
                     put( "accept", "application/json" );

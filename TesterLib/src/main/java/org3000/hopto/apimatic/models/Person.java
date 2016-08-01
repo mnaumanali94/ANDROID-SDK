@@ -12,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonSetter;
 public class Person 
         extends BaseModel
         implements java.io.Serializable {
-    private static final long serialVersionUID = 5197334856308187935L;
+    private static final long serialVersionUID = 5430290913209536864L;
     private String address;
     private long age;
     private String name;
