@@ -3,3 +3,4 @@
 checkout:
   post:
     - chmod +x ./gradlew
+    - gradle wrapper
