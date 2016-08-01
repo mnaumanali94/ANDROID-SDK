@@ -3,6 +3,5 @@
 machine:
    environment:
      ANDROID_HOME: /usr/local/android-sdk-linux
-test:
-  override:
-    - chmod+x ./gradlew test
+dependencies:
+  pre: chmod+x gradlew
