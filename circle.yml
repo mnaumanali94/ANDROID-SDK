@@ -4,4 +4,5 @@ machine:
    environment:
      ANDROID_HOME: /usr/local/android-sdk-linux
 dependencies:
-  pre: chmod+x ./gradlew dependencies
+  pre: 
+  chmod+x gradlew
