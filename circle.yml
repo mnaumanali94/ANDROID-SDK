@@ -1,19 +1,2 @@
 # Circle CI should automatically run the tests.
 # For configuration options, visit: https://circleci.com/docs/configuration/
-general:
-    artifacts:
-        - /home/ubuntu/your-app-name/app/build/outputs/apk/
-
-machine:
-    environment:
-        ANDROID_HOME: /usr/local/android-sdk-linux
-
-dependencies:
-    override:
-        - echo y | android update sdk --no-ui --all --filter tools,platform-tools,build-tools-19.1.0,android-19,extra-google-m2repository,extra-google-google_play_services,extra-android-support
-        - ANDROID_HOME=/usr/local/android-sdk-linux chmod+x./gradlew dependencies
-
-test:
-    override:
-        - (chmod+x ./gradlew assemble):
-            timeout: 360
