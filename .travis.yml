@@ -18,6 +18,7 @@ before_script:
   - adb shell input keyevent 82 &
 script:
     - gradle wrapper
+    - gradle build
     - gradle assembleAndroidTest
     - adb wait-for-device push ./TesterLib/ build/outputs/apk/TesterLib-debug-androidTestunaligned.apk /data/local/tmp/apimatic.hopto.org.test
     - adb wait-for-device shell pm install -r "/data/ local/tmp/apimatic.hopto.org.test"
