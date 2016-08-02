@@ -3,5 +3,3 @@
 checkout:
   post:
     - chmod +x ./gradlew
-    - gradle build
-    - gradle assembleAndroidTest
