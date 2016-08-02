@@ -1,6 +1,8 @@
 # Circle CI should automatically run the tests.
 # For configuration options, visit: https://circleci.com/docs/configuration/
 machine:
+  android:
+    android-19
   environment:
     ANDROID_HOME: /home/ubuntu/android
   java:
