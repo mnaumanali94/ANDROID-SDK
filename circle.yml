@@ -1,7 +1,20 @@
 # Circle CI should automatically run the tests.
 # For configuration options, visit: https://circleci.com/docs/configuration/
-checkout:
-  post:
-    - chmod +x ./gradlew
-    - gradle wrapper
+machine:
+  environment:
+    ANDROID_HOME: /home/ubuntu/android
+  java:
+    version: oraclejdk7
+dependencies:
+  cache_directories:
+    - ~/.android
+    - ~/android
+  override:  
+    - echo no | android create avd --force -n test -t android-19 --abi armeabi-v7a
+test:
+  pre:
+    - emulator -avd test -no-skin -no-audio -no-window &
+    - android-wait-for-emulator
+    - adb shell input keyevent 82 &
+  override:
     - ./gradlew connectedAndroidTest -i
