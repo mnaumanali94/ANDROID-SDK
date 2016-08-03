@@ -1,8 +1,6 @@
 # Circle CI should automatically run the tests.
 # For configuration options, visit: https://circleci.com/docs/configuration/
 machine:
-  environment:
-    ANDROID_HOME: /home/ubuntu/android
   java:
     version: oraclejdk7
 dependencies:        
