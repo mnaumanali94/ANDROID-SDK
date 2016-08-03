@@ -1,7 +1,7 @@
 /*
  * TesterLib
  *
- * This file was automatically generated for Stamplay by APIMATIC v2.0 ( https://apimatic.io ) on 08/01/2016
+ * This file was automatically generated for Stamplay by APIMATIC v2.0 ( https://apimatic.io ) on 08/03/2016
  */
 package org3000.hopto.apimatic.models;
 
@@ -12,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonSetter;
 public class EchoResponse 
         extends BaseModel
         implements java.io.Serializable {
-    private static final long serialVersionUID = 4620898742347648558L;
+    private static final long serialVersionUID = 4748184503687827510L;
     private LinkedHashMap<String, Object> body;
     private LinkedHashMap<String, String> headers;
     private String method;

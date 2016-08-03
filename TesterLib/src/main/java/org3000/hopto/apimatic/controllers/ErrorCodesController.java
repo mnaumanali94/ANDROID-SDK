@@ -1,7 +1,7 @@
 /*
  * TesterLib
  *
- * This file was automatically generated for Stamplay by APIMATIC v2.0 ( https://apimatic.io ) on 08/01/2016
+ * This file was automatically generated for Stamplay by APIMATIC v2.0 ( https://apimatic.io ) on 08/03/2016
  */
 package org3000.hopto.apimatic.controllers;
 
@@ -54,7 +54,7 @@ public class ErrorCodesController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5569963462293893771L;
+            private static final long serialVersionUID = 5538164312857249007L;
             {
                     put( "user-agent", "Stamplay SDK" );
                     put( "accept", "application/json" );
@@ -135,7 +135,7 @@ public class ErrorCodesController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 4973455476008589120L;
+            private static final long serialVersionUID = 4637255393914714020L;
             {
                     put( "user-agent", "Stamplay SDK" );
                     put( "accept", "application/json" );

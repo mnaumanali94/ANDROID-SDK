@@ -1,7 +1,7 @@
 /*
  * TesterLib
  *
- * This file was automatically generated for Stamplay by APIMATIC v2.0 ( https://apimatic.io ) on 08/01/2016
+ * This file was automatically generated for Stamplay by APIMATIC v2.0 ( https://apimatic.io ) on 08/03/2016
  */
 package org3000.hopto.apimatic.controllers;
 
@@ -59,7 +59,7 @@ public class TemplateParamsController extends BaseController {
 
         //process template parameters
         APIHelper.appendUrlWithTemplateParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 4638086206748561968L;
+            private static final long serialVersionUID = 4998255240014115637L;
             {
                     put( "strings", strings );
             }});
@@ -68,7 +68,7 @@ public class TemplateParamsController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5744234436344286687L;
+            private static final long serialVersionUID = 5084503027700763506L;
             {
                     put( "user-agent", "Stamplay SDK" );
                     put( "accept", "application/json" );
@@ -159,7 +159,7 @@ public class TemplateParamsController extends BaseController {
 
         //process template parameters
         APIHelper.appendUrlWithTemplateParameters(_queryBuilder, new HashMap<String, Object>() {
-            private static final long serialVersionUID = 5234744137466189345L;
+            private static final long serialVersionUID = 5677829884591040622L;
             {
                     put( "integers", integers );
             }});
@@ -168,7 +168,7 @@ public class TemplateParamsController extends BaseController {
 
         //load all headers for the outgoing API request
         Map<String, String> _headers = new HashMap<String, String>() {
-            private static final long serialVersionUID = 5676441086696644225L;
+            private static final long serialVersionUID = 5154502873894875266L;
             {
                     put( "user-agent", "Stamplay SDK" );
                     put( "accept", "application/json" );
